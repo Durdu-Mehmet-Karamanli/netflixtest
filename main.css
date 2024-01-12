@@ -1,0 +1,59 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size:40px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size:32px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size:20px;
+  }
+  
+  p {
+    margin: 0;
+    font-size:16px;
+    font-weight: 400;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  label {
+    font-size:16px;
+  }
+  
+  span {
+    font-size: inherit;
+  }
+  
+  a {
+    margin: 0;
+    font-size:18px;
+    text-decoration: none;
+  }
+  
+  ::selection {
+    color: #ffffff;
+    background-color: red;
+  }
