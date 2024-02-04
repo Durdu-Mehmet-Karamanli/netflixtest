@@ -22,6 +22,7 @@ select {
     border-image: fill 0 linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);    
 }
 .header__content{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,20 +46,6 @@ select {
     height: 40px;
     
 }
-.header__select{
-    display: flex;
-    flex-direction: row;
-    justify-content:end;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    padding: 8px;
-    border-radius: 0.25rem;
-    border-style: solid;
-    border-color: white;
-    background-color: black;
-    color: white;
-}
 .header__select__area{
     display: flex;
     flex-direction: row;
@@ -74,6 +61,20 @@ select {
         
     }
 }
+.header__select{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    
+}
 .select__login{
     color: white;
     border-style: solid;
@@ -82,7 +83,7 @@ select {
     background-color:red;
     border: none;
     border-color: #000;
-    padding: 6px 1px 6px 1px;
+    padding: 6px 10px 6px 10px;
 }
 .section__1{
     display: flex;
@@ -102,25 +103,46 @@ select {
     justify-content: center;
     margin-top: 200px;
     gap: 24px;
+    
 }
 .section__1__h1{
     color: white;
     font-weight: 900;
     font-size: 40px;
+    
+    @media only screen and (max-width:720px) {
+        font-size: 24px;
+    }
 }
 .section__1__p{
     font-size: 22px;
     color: white;
+    @media only screen and (max-width:720px) {
+        font-size: 14px;
+    }
 }
 .section__1__h3{
     font-size: 19px;
     color: white;
+    @media only screen and (max-width:720px) {
+        font-size: 12px;
+    }
 }
 .section__1__e-mail{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    
+    @media only screen and (max-width:720px) {
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        justify-content: start;
+        max-height: auto;
+        max-width: auto;
+        
+    }
 }
 .section__1__input{
     color: white;
@@ -140,9 +162,12 @@ select {
     border-radius: 0.125rem;
     border-color: red;
     padding: 10px 10px 10px 10px;
-    width: 100px;
+    width: 10%;
     align-items: center;
     text-align: center;
+    @media only screen and (max-width:720px) {
+        width: 50%;
+    }
 }
 .section__gap{
     background-color:#232323;
@@ -164,6 +189,12 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media only screen and (max-width:720px) {
+        display: flex;
+        flex-direction: column;
+        font-size: 7px;
+
+    }
 }
 .list{
     display: flex;
@@ -191,6 +222,9 @@ select {
     background-color: black;
     border-width: 0,125rem;
     color: white;
+    @media only screen and (max-width:720px) {
+        max-width: 100%;
+    }
 }
 .footer__app{
     margin-top: 20px;
