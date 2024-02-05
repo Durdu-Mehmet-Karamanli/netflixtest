@@ -1,6 +1,6 @@
 .container{
     max-width: calc(83.333333333333% - 6rem);
-    margin:30px 24px;
+    margin:30px auto;
     @media only screen and (min-width:1440px) {
         max-width: 1200px;
         margin: 30px auto;
