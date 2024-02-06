@@ -174,6 +174,165 @@ select {
     width: 100%;
     height: 5px;
 }
+.section__2{
+    background-color: #000;
+}
+.section__2__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width:720px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.section__2__text{
+    padding: 0;
+    width: 100%;
+    flex-basis: 50%;
+    text-align: left;
+    
+    @media only screen and (max-width:720px) {
+     text-align: center;
+    }
+    
+}
+.section__2__h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    
+    @media only screen and (max-width:720px) {
+        margin: 0;
+        font-size: 32px;
+        font-weight: 700;
+       }
+}
+.section__2__p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    
+    @media only screen and (max-width:720px) {
+        margin: 16px 0 0;
+        font-size: 20px;
+        font-weight: 400;
+       }
+}
+.section__2__animation{
+    display: flex;
+    flex-direction: column;  
+    position: relative;  
+    width: 50%;
+    @media only screen and (max-width:720px) {
+        width: 100%;
+    }
+
+}
+.section__2__img{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.section__2__video{
+    position: absolute;
+    align-items: center;
+    width: 75%;
+    height: 54%;
+    top: 21%;
+    left: 12%;
+    
+}
+.section__3{
+    background-color: #000;
+}
+.section__3__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width:720px) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+.section__3__animation{
+    display: flex;
+    flex-direction: column;  
+    position: relative;  
+    width: 50%;
+    @media only screen and (max-width:720px) {
+        width: 100%;
+    }
+}
+.section__3__img{
+    
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+.section__3__borderbox{
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid rgba(128,128,128,0.7);
+    border-radius: 0.75rem;
+    padding: 0.25rem 0.65rem;
+    width: 50%;
+    min-width: 15rem;
+    margin: auto;
+    background: #000;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.section__3__boximage{
+    border:0;
+    margin: 0 1rem 0 0;
+}
+.section__3__boxshot{
+    height: 4.5rem;
+}
+.section__3__box__text{
+    text-align: left;
+    margin: 0.3rem 0;
+}
+.section__3__box__resolute__1{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+.section__3__box__resolute__2{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #0071eb;
+}
+.section__3__box__download{
+    display: flex;
+    position: relative;
+    width: 5rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') center center no-repeat;
+    background-size: 100%;
+    content: ' ';
+}
 .footer__area{
     background-color: #000;
     height: 100%;
