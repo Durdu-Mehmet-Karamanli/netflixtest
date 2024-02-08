@@ -477,7 +477,6 @@ select {
         font-weight: 700;
     }
 }
-
 .section__5__p {
     color: white;
     font-size: 20px;
@@ -488,6 +487,104 @@ select {
         margin: 16px 0 0;
         font-size: 20px;
         font-weight: 400;
+    }
+}
+.section__tabpane{
+    background-color: #000;
+}
+.section__tabpane_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width:720px) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.section__tabpane__text{
+    padding: 0;
+    width: 100%;
+    flex-basis: 50%;
+    text-align: left;
+
+    @media only screen and (max-width:720px) {
+        text-align: center;
+    }
+
+}
+.section__tabpane__h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+
+    @media only screen and (max-width:720px) {
+        margin: 0;
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+.tabpane__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    color: #ffffffb3;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 5px;
+}
+.tabpane{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(45,45,45);
+    color:white;
+    padding: 24px;
+    width: 90%;
+    font-size: 30px;
+}
+.section__tabpane__p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 1rem 0 0;
+
+    @media only screen and (max-width:720px) {
+        margin: 16px 0 0;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+.section__tabpane__input{
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-radius: 0.125rem;
+    border-color: #000;
+    opacity: 0.8;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    border-color: white;
+}
+.section__tabpane__a {
+    color: white;
+    background-color: red;
+    border-style: solid;
+    border-radius: 0.125rem;
+    border-color: red;
+    padding: 10px 10px 10px 10px;
+    width: 10%;
+    align-items: center;
+    text-align: center;
+
+    @media only screen and (max-width:720px) {
+        width: 50%;
     }
 }
 .footer__area {
