@@ -506,7 +506,12 @@ select {
     }
 }
 .section__tabpane__text{
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
     width: 100%;
     flex-basis: 50%;
     text-align: left;
@@ -518,7 +523,7 @@ select {
 }
 .section__tabpane__h2{
     color: white;
-    font-size: 32px;
+    font-size: 52px;
     font-weight: 700;
 
     @media only screen and (max-width:720px) {
@@ -540,26 +545,42 @@ select {
     margin-top: 5px;
 }
 .tabpane{
+    color: white;
+    font-size: 30px;
+}
+.tabpane__icon{
+    color: white;
+    font-size: 30px;
+}
+.lili{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(45,45,45);
-    color:white;
+    align-items: center;
+    width: 100%;
     padding: 24px;
-    width: 90%;
-    font-size: 30px;
+    background-color: rgb(45,45,45);
+}
+.section__tabpane__subfield{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.section__tabpane__textfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:20px 0px;
 }
 .section__tabpane__p{
     color: white;
     font-size: 20px;
     font-weight: 400;
     margin: 1rem 0 0;
-
-    @media only screen and (max-width:720px) {
-        margin: 16px 0 0;
-        font-size: 20px;
-        font-weight: 400;
-    }
 }
 .section__tabpane__input{
     color: white;
@@ -568,7 +589,7 @@ select {
     border-radius: 0.125rem;
     border-color: #000;
     opacity: 0.8;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     width: 50%;
     border-color: white;
 }
@@ -578,7 +599,7 @@ select {
     border-style: solid;
     border-radius: 0.125rem;
     border-color: red;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     width: 10%;
     align-items: center;
     text-align: center;
