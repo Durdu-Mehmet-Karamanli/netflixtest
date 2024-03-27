@@ -747,6 +747,12 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media only screen and (max-width:600px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        }
 }
 .footer__list__1 {
     
@@ -756,7 +762,7 @@ select {
     @media only screen and (max-width:600px) {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         }
 }
 .footer__list__2 {
@@ -766,14 +772,14 @@ select {
     @media only screen and (max-width:600px) {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         }
 }
 .footer__list__3 {
 @media only screen and (max-width:600px) {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     }
 }
 .footer__list__4 {
